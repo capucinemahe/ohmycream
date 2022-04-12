@@ -1,0 +1,17 @@
+.item {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* text-transform: capitalize; */
+}
+.item-cover {
+	width: auto;
+	height: 400px;
+	padding: 20px;
+}
+
+.item-price {
+	margin-top: 8px;
+}
