@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/Items.css'
 
 export default function Items({ id, cover, name, price }) {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react'
 import { beautyList } from '../datas/beautyList'
 import Items from './Items'

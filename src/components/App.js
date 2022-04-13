@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import Banner from "./Banner";
 import Cart from "./Cart";
