@@ -1,6 +1,6 @@
 # Oh My Cream
 
-## Site e-commerce de produits de beauté
+## Site e-commerce de produits de beauté - work in progress
 
 **Ce projet a été réalisé avec React**
 
@@ -10,6 +10,5 @@ J'ai utilisé les images et le logo d'une marque existante, mais ce site n'a auc
 **Pré requis :**
 Vous devez avoir installé Node et npm localement sur votre machine.
 
-**Free Software, Hell Yeah!**
 
 ✨  Vous pouvez le visualiser et le tester en live ici : https://capucinemahe.github.io/ohmycream/ 
