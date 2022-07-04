@@ -1,0 +1,34 @@
+.navigation ul {
+  display: flex;
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation li {
+  transition: 0.2s;
+  cursor: pointer;
+  list-style: none;
+}
+
+.navigation li:hover {
+  color: pink;
+}
+
+.nav-active {
+  position: relative;
+}
+
+.nav-active::after {
+  content: "";
+  height: 4px;
+  width: 0;
+  background: pink;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0px;
+  left: 50%;
+}
