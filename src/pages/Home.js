@@ -7,12 +7,18 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
 const Home = () => {
+
   const savedCart = localStorage.getItem("cart");
   const [cart, updateCart] = useState(savedCart ? JSON.parse(savedCart) : []);
+
+  //La méthode JSON.parse() analyse une chaîne de caractères JSON et
+  //construit la valeur JavaScript ou l'objet décrit par cette chaîne
 
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
+
+  //La méthode JSON.stringify() convertit une valeur JavaScript en chaîne JSON string
 
   return (
     <div>
