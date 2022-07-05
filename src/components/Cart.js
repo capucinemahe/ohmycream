@@ -8,7 +8,7 @@ import '../styles/Cart.css'
 
 export default function Cart({ cart, updateCart }) {
 
-	const [isOpen, setIsOpen] = useState(true)
+	const [isOpen, setIsOpen] = useState(false)
 	const total = cart.reduce((acc, plantType) => acc + plantType.amount * plantType.price, 0)
 
 //   useEffect(() => {

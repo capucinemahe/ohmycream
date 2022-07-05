@@ -1,6 +1,7 @@
 .navigation ul {
   display: flex;
-  margin: 30px;
+  padding-left: 5%;
+  margin-bottom: 0;
 }
 
 a {
@@ -10,25 +11,11 @@ a {
 
 .navigation li {
   transition: 0.2s;
-  cursor: pointer;
   list-style: none;
+  padding-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navigation li:hover {
   color: pink;
-}
-
-.nav-active {
-  position: relative;
-}
-
-.nav-active::after {
-  content: "";
-  height: 4px;
-  width: 0;
-  background: pink;
-  position: absolute;
-  border-radius: 10px;
-  bottom: 0px;
-  left: 50%;
 }
