@@ -1,0 +1,17 @@
+.contact {
+  text-align: center;
+  width: 60%;
+  color: pink;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.inputs {
+  margin-top: 15px;
+}
