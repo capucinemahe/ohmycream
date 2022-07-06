@@ -28,8 +28,8 @@ export default function Cart({ cart, updateCart }) {
         <div>
           <h2>Panier</h2>
           <ul>
-            {cart.map(({ name, price, amount }, index) => (
-              <div key={`${name}-${index}`} className="cart-list">
+            {cart.map(({ name, price, amount }, id) => (
+              <div key={id} className="cart-list">
                 {name} {price} € x {amount}
               </div>
             ))}

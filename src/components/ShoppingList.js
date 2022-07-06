@@ -22,7 +22,7 @@ export default function ShoppingList({ cart, updateCart }) {
       const cartFilteredCurrentitem = cart.filter((item) => item.name !== name);
       updateCart([
         ...cartFilteredCurrentitem,
-        { name, price, amount: currentitemSaved.amount + 1 },
+        { name, price, amount: currentitemSaved.amount + 1 }
         // amount = quantité précédente
       ]);
     } else {
@@ -47,7 +47,7 @@ export default function ShoppingList({ cart, updateCart }) {
                 className="button-add-cart"
                 onClick={() => addToCart(name, price)}
               >
-                Ajouter
+                Ajouter au panier
               </button>
             </div>
           ) : null

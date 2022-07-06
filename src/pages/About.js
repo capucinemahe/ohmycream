@@ -1,12 +1,14 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Modal from "../components/Modal";
+//import ScrollInfinite from "../components/ScrollInfinite";
 
 const About = () => {
   return (
     <div>
       <Nav />
       <Modal />
+      
       <h1>A propos de Oh My Cream</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laborum
@@ -18,6 +20,8 @@ const About = () => {
         dolorum soluta sit quia eveniet, molestiae in, quam inventore recusandae
         ipsam?
       </p>
+
+      {/* <ScrollInfinite /> */}
     </div>
   );
 };
